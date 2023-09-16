@@ -44,6 +44,12 @@ body {
     border-bottom-right-radius: 20%;
 }
 
+.logo{
+    height: 70px;
+    width: 70px;
+    margin-right: -10%;
+}
+
 .central-div {
     display: flex;
     justify-content: center;
