@@ -10,7 +10,9 @@ fetch(apiUrl)
     })
     .then((data) => {
         var img=document.querySelector('.image-display');
-        img.setAttribute('src',data['hdurl'])
+        img.setAttribute('src',data['hdurl']);
+        var content=document.querySelectorAll('.content');
+        content.style.background="none";
     })
     .catch((error) => {
         console.error('NASA API is unable to process request at the moment!',error)

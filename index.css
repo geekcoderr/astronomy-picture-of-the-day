@@ -23,7 +23,7 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #111B1C;
+    /* background-color: #111B1C; */
     position: fixed;
     overflow: hidden;
     margin-top: 0%;
@@ -44,7 +44,6 @@ body {
     transform-origin: middle;
     height: 90vh;
     width: 170vh;
-    margin-left: 100px;
     min-height: 100vh;
     /* Ensure the div takes up the full viewport height */
 
@@ -61,4 +60,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
     transform-origin: middle;
+}
+
+.image-display{
+    max-height: 50%;
+    max-width: 70%;
 }
