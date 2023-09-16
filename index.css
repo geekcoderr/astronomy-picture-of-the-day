@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-blend-mode: darken;
+    background: linear-gradient(74.3deg, rgb(68, 17, 28) 17.4%, rgb(95, 24, 40) 34.7%, rgb(122, 31, 51) 51.8%, rgb(149, 38, 62) 67.4%, rgb(163, 41, 68) 89.6%);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transform-origin: middle;
+    /* margin: 5vh; */
+    height: 50vh;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #111B1C;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: hidden;
+    margin-top: 0%;
+    /* box-shadow: 1px 1px 3px 2px black; */
+    /* border-top-right-radius: 10vh; */
+    /* border-bottom-right-radius: 10vh; */
+    border-right: 7px #F07100 solid;
+    height: 100%;
+    width: 12vh;
+}
+
+.central-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-blend-mode: darken;
+    background-color: #F07100;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    transform-origin: middle;
+    height: 90vh;
+    width: 100vh;
+    margin-top: 20px;
+}
+
+.content {
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
+    padding: 20px;
+}
