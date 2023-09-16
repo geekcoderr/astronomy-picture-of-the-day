@@ -9,11 +9,12 @@ fetch(apiUrl)
         return response.json();
     })
     .then((data) => {
-        var img=document.querySelector('.image-display');
-        img.setAttribute('src',data['hdurl']);
-        var content=document.querySelectorAll('.content');
-        content.style.background="none";
+        var img = document.querySelector('.image-display');
+        img.setAttribute('src', data['hdurl']);
+        var content = document.querySelectorAll('.content');
+        content.style.background = "none";
     })
     .catch((error) => {
-        console.error('NASA API is unable to process request at the moment!',error)
+        console.error('NASA API is unable to process request at the moment!', error)
     });
+
