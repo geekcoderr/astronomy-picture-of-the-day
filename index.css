@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Caveat:wght@700&family=Comfortaa:wght@500&family=Dancing+Script:wght@700&family=MuseoModerno:ital,wght@0,500;1,400&family=Ubuntu:wght@500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Bungee+Spice&family=Caveat:wght@700&family=Comfortaa:wght@500&family=Dancing+Script:wght@700&family=Exo&family=MuseoModerno:ital,wght@0,500;1,400&family=Ubuntu:wght@500&display=swap');
 body {
     display: flex;
     justify-content: center;
@@ -97,14 +96,17 @@ body {
     padding: 10px;
     color: rgb(245, 26, 161);
     font-family: 'Comfortaa', cursive;
-    font-size:30px;
+    font-size:25px;
     font-weight: bolder;
     mix-blend-mode:overlay;
-    
+    font-family: 'Architects Daughter', cursive;
+
 }
 
 .astro-text{
+    font-family: 'Comfortaa', cursive;
     color:blue;
     mix-blend-mode:multiply;
     font-size: 40px;
+    font-weight: 900;
 }
