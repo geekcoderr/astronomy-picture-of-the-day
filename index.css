@@ -80,23 +80,47 @@ body {
     background-size: cover;
     background-attachment: fixed;
     transform-origin: middle;
-    max-height: 90%;
-    max-width: 90%;
+    height: 400px;
+    /* width: 600px; */
+    margin-top: 60px;
 }
 
 .image-display {
-    max-height: 30%;
-    max-width: 50%;
-    box-shadow: 0 0 0 3px rgb(255, 54, 91), 10px 10px 0 0 rgb(255, 136, 0) ;
-    margin-top: 50px;
-    border-radius: 4px;
+    max-height: 100%;
+    max-width: 100%;
+    /* margin-top: 50px; */
+    border-radius: 1pt;
 }
 
 .content:hover{
-    max-height: 70%;
-    max-width: 80%;
+    /* background: radial-gradient(circle at 24.1% 68.8%, rgb(50, 50, 50) 0%, rgb(0, 0, 0) 99.4%); */
+    /* border-radius: 100pt; */
 }
-
+  .content {
+    border-radius: 20px;
+    background: linear-gradient(170deg, rgba(58, 56, 56, 0.623) 0%, rgb(31, 31, 31) 100%);
+    position: relative;
+    box-shadow: 0 25px 50px rgba(0,0,0,0.55);
+    cursor: pointer;
+    transition: all .3s;
+  }
+  
+  .content:hover {
+    transform: scale(1.2);
+  }
+  
+  .content span {
+    position: absolute;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    top: -10px;
+    left: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
 .title-text,.astro-text {
     padding: 10px;
     color: rgb(245, 26, 161);
@@ -114,4 +138,7 @@ body {
     mix-blend-mode:multiply;
     font-size: 40px;
     font-weight: 900;
+    background-color: #00FFFF	;
+    border-radius: 20pt;
+    margin-left: 20px;
 }
