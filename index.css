@@ -37,10 +37,10 @@ body {
     position: fixed;
     overflow: hidden;
     margin-top: 0%;
-    width: 90%;
+    width: 80%;
     height: 12vh;
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 20%;
+    border-bottom-left-radius: 20vh;
+    border-bottom-right-radius: 20vh;
 }
 
 .logo{
@@ -85,11 +85,16 @@ body {
 }
 
 .image-display {
-    max-height: 50%;
-    max-width: 70%;
+    max-height: 30%;
+    max-width: 50%;
     box-shadow: 0 0 0 3px rgb(255, 54, 91), 10px 10px 0 0 rgb(255, 136, 0) ;
     margin-top: 50px;
     border-radius: 4px;
+}
+
+.content:hover{
+    max-height: 70%;
+    max-width: 80%;
 }
 
 .title-text,.astro-text {
@@ -99,7 +104,7 @@ body {
     font-size:25px;
     font-weight: bolder;
     mix-blend-mode:overlay;
-    font-family: 'Architects Daughter', cursive;
+    /* font-family: 'Architects Daughter', cursive; */
 
 }
 
